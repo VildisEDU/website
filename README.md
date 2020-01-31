@@ -1,2 +1,2 @@
 # website
-A simple website for a school project-
+A simple website for a school project

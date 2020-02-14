@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <style>
+        .container {
+            position: relative;
+        }
+        .center {
+             position: absolute;
+             left: 0;
+             top: 50%;
+             width: 100%;
+             text-align: center;
+             font-size: 18px;
+        }
+        body {
+             background-color: aqua;
+        }
+    </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='what.css'><link rel="stylesheet" href="./style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="center">
+				<div>
+					<div class="btn-group mt-2 mb-4" role="group" aria-label="actionButtons">
+                        <a href="index.html" class="d-block btn btn-outline-light" ><i class="fas fa-backward"></i> Test</a>
+                        <script type = "text/javascript">
+                            var toggled = false;
+                            function pic1()
+                            {
+                                toggled = !toggled;
+                                if (toggled){
+                                    document.getElementById("img").src ="imgs/snap.jpg";
+                                }
+                            }
+                        </script>
+                        
+                        <a href="" class="d-block btn btn-outline-light" ><i onclick="pic1()" class="fas fa-backward"></i> Test</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+
+	</body>
+</html>
